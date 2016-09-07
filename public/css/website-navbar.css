@@ -18,6 +18,21 @@
 .navbar-default .navbar-nav.with-separator > li > a {
     border-left: 1px solid #c4c4c4;
 }
+.navbar-default .navbar-nav .middle {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.navbar-default .navbar-nav img{
+    display: inline-block;
+    border: 2px solid #c4c4c4;
+    height: 30px;
+    line-height: 26px;
+    font-size: 90%;
+    color: grey;
+    font-weight: bold;
+    border-radius: 15px;
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #333;
