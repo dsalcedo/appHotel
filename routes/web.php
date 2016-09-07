@@ -10,7 +10,7 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
+// Hello this commer is for first lead
 Route::get('/', function () {
     return view('welcome');
 });
