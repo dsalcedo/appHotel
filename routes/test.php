@@ -1,6 +1,6 @@
 <?php
 
-Route::get('test', function () {
-    return view('welcome');
+Route::group(['namespace'=>'Test'], function (){
+    Route::get('test', 'ConektaController@cargo')->name('test.index');
 });
 
