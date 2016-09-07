@@ -12,4 +12,14 @@ class WebsiteController extends Controller
     {
         return view('website.index');
     }
+
+    public function iniciarSesion()
+    {
+        return view('website.index');
+    }
+
+    public function registro()
+    {
+        return view('website.index');
+    }
 }
