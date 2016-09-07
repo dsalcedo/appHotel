@@ -11,6 +11,4 @@
 |
 */
 // Hello this commer is for first lead
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WebsiteController@index')->name('website.index');
