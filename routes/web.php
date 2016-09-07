@@ -13,4 +13,4 @@
 // Hello this commer is for first lead
 Route::get('/', 'WebsiteController@index')->name('website.index');
 Route::get('iniciar-sesion', 'WebsiteController@iniciarSesion')->name('website.iniciarSesion');
-Route::get('crear-cuenta', 'WebsiteController@registro')->name('website.registro');
+Route::get('crear-cuenta', 'WebsiteController@crearCuenta')->name('website.crearCuenta');

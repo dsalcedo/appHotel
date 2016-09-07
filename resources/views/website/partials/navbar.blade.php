@@ -29,7 +29,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav with-separator navbar-right">
-                <li><a href="{{route('website.registro')}}">crear cuenta</a></li>
+                <li><a href="{{route('website.crearCuenta')}}">crear cuenta</a></li>
                 <li><a href="{{route('website.iniciarSesion')}}">iniciar sesión</a></li>
             </ul>
         </div><!--/.nav-collapse -->

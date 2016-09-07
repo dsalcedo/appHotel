@@ -18,8 +18,8 @@ class WebsiteController extends Controller
         return view('website.index');
     }
 
-    public function registro()
+    public function crearCuenta()
     {
-        return view('website.index');
+        return view('website.crearCuenta');
     }
 }
