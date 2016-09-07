@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "d472f9a49c9c50abb6bb59a767d75899",
+    "content-hash": "c6d5a49bbbf649a89b7b12fd2a74f58a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -60,6 +60,54 @@
                 "preload"
             ],
             "time": "2015-11-09 22:51:51"
+        },
+        {
+            "name": "conekta/conekta-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conekta/conekta-php.git",
+                "reference": "674a979393bbf59c09f7fc33da081f0a877b51fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/conekta/conekta-php/zipball/674a979393bbf59c09f7fc33da081f0a877b51fb",
+                "reference": "674a979393bbf59c09f7fc33da081f0a877b51fb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/Conekta/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Conekta  and contributors",
+                    "homepage": "https://github.com/conekta/conekta-php/contributors"
+                }
+            ],
+            "description": "PHP  Library",
+            "homepage": "https://www.conekta.io/",
+            "keywords": [
+                "api",
+                "conekta",
+                "payment processing"
+            ],
+            "time": "2016-09-05 16:33:58"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3425,7 +3473,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "conekta/conekta-php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
